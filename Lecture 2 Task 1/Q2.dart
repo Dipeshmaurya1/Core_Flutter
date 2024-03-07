@@ -5,7 +5,7 @@ void main() {
 
   stdout.write("Enter the number of Indian states you want to add:");
   int numStates = int.parse(stdin.readLineSync()!);
-  if(numStates<=29)
+  if(numStates<29)
   {
     for (int i = 0; i < numStates; i++) {
     stdout.write("Enter the name of state ${i + 1}:");
